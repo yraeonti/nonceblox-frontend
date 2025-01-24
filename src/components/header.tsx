@@ -1,4 +1,4 @@
-import { Box, Center } from "@chakra-ui/react";
+import { Box, Center, Text } from "@chakra-ui/react";
 import MobileDrawer from "./mobile-drawer";
 
 export default function Header() {
@@ -12,7 +12,9 @@ export default function Header() {
       width={"full"}
       justifyContent={"space-between"}
     >
-      <span>NonceBlox</span>
+      <Text fontStyle={"italic"} fontWeight={"bold"}>
+        NonceBlox
+      </Text>
 
       <Box lg={{ display: "none" }}>
         <MobileDrawer />

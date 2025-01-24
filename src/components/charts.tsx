@@ -19,7 +19,7 @@ export default function Charts({
   filterMetrics,
   name,
 }: IChart) {
-  if (!data || isLoading)
+  if (isLoading || !data)
     return (
       <Flex width={"full"} flexDirection={"column"} pt={10} gap={4}>
         <Skeleton height="6" width={"25%"} />

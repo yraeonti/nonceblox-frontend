@@ -14,13 +14,13 @@ export default function ChartTabs({
   barComponent,
 }: Props) {
   return (
-    <Tabs.Root defaultValue="line" variant={"enclosed"}>
+    <Tabs.Root defaultValue="area" variant={"enclosed"}>
       <Tabs.List>
+        <Tabs.Trigger value="area">{barHeader}</Tabs.Trigger>
         <Tabs.Trigger value="line">{lineHeader}</Tabs.Trigger>
-        <Tabs.Trigger value="bar">{barHeader}</Tabs.Trigger>
       </Tabs.List>
+      <Tabs.Content value="area">{barComponent}</Tabs.Content>
       <Tabs.Content value="line">{lineComponent}</Tabs.Content>
-      <Tabs.Content value="bar">{barComponent}</Tabs.Content>
     </Tabs.Root>
   );
 }
