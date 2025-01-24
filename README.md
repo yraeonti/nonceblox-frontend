@@ -16,7 +16,7 @@ This project contains the frontend implementation of the Nonceblox frontend assi
 
 ## Running the Frontend
 
-- Clone this GitHub repository: [GP-Vote Frontend](https://github.com/yraeonti/nonceblox-frontend)
+- Clone this GitHub repository: [Noneblox-Frontend](https://github.com/yraeonti/nonceblox-frontend)
 - Open your terminal and change directory to `nonceblox-frontend`:
   ```bash
   cd nonceblox-frontend
