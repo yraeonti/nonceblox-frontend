@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Noneblox-Frontend
 
-## Getting Started
+This project contains the frontend implementation of the Nonceblox frontend assignment. This application helps visualise major cryptocurrency price, market capitalisation and volume data. It uses an area and line chart to help you peruse cryptocurrency data.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
+- [Instructions for Installation](#instructions-for-installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Suggestions](#suggestions)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Ensure you have [VS Code](https://code.visualstudio.com/) and [Node.js](https://nodejs.org/) installed on your machine.
 
-## Learn More
+## Running the Frontend
 
-To learn more about Next.js, take a look at the following resources:
+- Clone this GitHub repository: [GP-Vote Frontend](https://github.com/yraeonti/nonceblox-frontend)
+- Open your terminal and change directory to `nonceblox-frontend`:
+  ```bash
+  cd nonceblox-frontend
+- Install dependencies:
+  ```bash
+  npm install
+- Run the development server
+  ```bash
+  npm run dev
+- The application should now be running locally. You can view it in your browser at http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Select cryptocurrency and currency to visualize. Also filter by date to peruse the data within any specific date range
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **NextJS**: JavaScript Frontend Framework for Client Applications
+- **Chakra UI**: UI Library for building reusable UI components and pages
+- **Recharts**: Library for data visualisation in form of charts
+- **Swr**: Data fetching Library
+- **React Hook Form**: React library for efficient handling of forms
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Suggestions
+- More charts can be provided to visualise data
+- Better styling of charts and chart descriptions to convey exact information
+

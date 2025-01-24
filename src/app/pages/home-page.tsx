@@ -20,8 +20,8 @@ const defaultValues: Inputs = {
 
 const metrics = {
   price: true,
-  marketCap: false,
   volume: false,
+  marketCap: false,
 };
 
 export default function HomePage() {

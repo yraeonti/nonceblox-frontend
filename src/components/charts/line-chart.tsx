@@ -13,7 +13,7 @@ import {
 
 export default function LineChartComponent({ data, metric }: IChartProps) {
   return (
-    <Stack overflow={"hidden"} width={"full"} p={3}>
+    <Stack overflow={"hidden"} width={"full"} p={0} lg={{ p: 3 }}>
       <ResponsiveContainer width={"100%"} height={300}>
         <LineChart height={300} width={600} data={data}>
           <CartesianGrid strokeDasharray="3 3" />

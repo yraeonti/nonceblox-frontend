@@ -78,7 +78,6 @@ export default function Filters({
   });
 
   const onSubmit = (data: Inputs) => {
-    console.log(data);
     setOptions(data);
   };
 
@@ -162,8 +161,8 @@ const SelectForm = ({
   return (
     <Field
       label={label}
-      invalid={!!errors.coin}
-      errorText={errors.coin?.message}
+      invalid={!!errors[name]}
+      errorText={errors[name]?.message}
     >
       <Controller
         control={control}

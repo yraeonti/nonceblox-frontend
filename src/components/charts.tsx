@@ -1,7 +1,7 @@
 import { CHARTDATA, Metrics } from "@/lib/dto";
 import LineChartComponent from "./charts/line-chart";
 import AreaChartComponent from "./charts/area-chart";
-import { Box, Flex, For, Text } from "@chakra-ui/react";
+import { Box, Flex, For, Stack, Text } from "@chakra-ui/react";
 import { Skeleton } from "@/components/ui/skeleton";
 import ChartTabs from "./chart-tabs";
 import { Fragment } from "react";
@@ -29,15 +29,21 @@ export default function Charts({
       </Flex>
     );
   return (
-    <Box width={"full"} pt={7}>
+    <Stack width={"full"} pt={7} gap={10}>
       <For
         each={Object.keys(filterMetrics).filter(
           (it) => filterMetrics[it as keyof Metrics]
         )}
       >
         {(item, i) => (
-          <Fragment key={i}>
-            <Text textTransform={"capitalize"} fontWeight={"bold"} pb={4}>
+          <Box key={i}>
+            <Text
+              textTransform={"capitalize"}
+              fontWeight={"bold"}
+              fontSize={20}
+              pb={4}
+              textAlign={"center"}
+            >
               {name} {item} Chart
             </Text>
             <ChartTabs
@@ -86,9 +92,9 @@ export default function Charts({
                 />
               }
             />
-          </Fragment>
+          </Box>
         )}
       </For>
-    </Box>
+    </Stack>
   );
 }
