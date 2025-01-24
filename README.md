@@ -4,7 +4,7 @@ This project contains the frontend implementation of the Nonceblox frontend assi
 
 
 ## Table of Contents
-- [Instructions for Installation](#instructions-for-installation)
+- [Running the Frontend](#running-the-frontend)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Suggestions](#suggestions)
