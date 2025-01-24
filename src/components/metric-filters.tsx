@@ -24,6 +24,7 @@ export default function MetricFilters({ metrics, setMetrics }: Props) {
               onCheckedChange={({ checked }) =>
                 setMetrics({ ...metrics, [item as keyof Metrics]: checked })
               }
+              textTransform={"capitalize"}
             >
               {item}
             </Checkbox>
