@@ -8,6 +8,7 @@ This project contains the frontend implementation of the Nonceblox frontend assi
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Suggestions](#suggestions)
+- [Live Url](#suggestions)
 
 
 ### Prerequisites
@@ -44,4 +45,9 @@ This project contains the frontend implementation of the Nonceblox frontend assi
 ## Suggestions
 - More charts can be provided to visualise data
 - Better styling of charts and chart descriptions to convey exact information
+
+
+## Suggestions
+- Live Url (Hosted on AWS Amplify): [Live url](https://main.d1jrn4yne297nr.amplifyapp.com/)
+
 
