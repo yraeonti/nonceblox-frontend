@@ -47,7 +47,7 @@ This project contains the frontend implementation of the Nonceblox frontend assi
 - Better styling of charts and chart descriptions to convey exact information
 
 
-## Suggestions
+## Live Url
 - Live Url (Hosted on AWS Amplify): [Live url](https://main.d1jrn4yne297nr.amplifyapp.com/)
 
 
